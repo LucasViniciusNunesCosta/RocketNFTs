@@ -1,0 +1,17 @@
+.galery__container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-content: end;
+    align-items: center;
+    margin-top: 3rem;
+}
+.galery__top{
+    display: flex;
+    gap: 1rem;
+}
+.galery__bottom{
+    display: flex;
+    gap: 1rem;
+}
