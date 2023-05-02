@@ -1,0 +1,57 @@
+.main3__container {
+  background-color: #0e0e0e;
+  height: 140vh;
+  font-family: arial;
+  padding-left: 82px;
+  padding-right: 80px;
+  padding-top: 100px;
+  color: #fff;
+}
+.main3__container-title{
+  margin-bottom: 120px;
+}
+.main3__title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60.95px;
+  color: #fff;
+}
+.main3__title > b {
+  color: #ff5b50;
+}
+.main3__populares-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.populares-card {
+  width: 25vw;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.populares-card__identification-astronaut {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+.populares-card__name{
+    display: flex;
+    justify-content: space-between;
+}
+.populares-card__name-astronaut {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5a5757;
+}
+.populares-card__name-rkt{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF5B50;
+}
+.populares-card__img{
+  width: 100%;
+}
