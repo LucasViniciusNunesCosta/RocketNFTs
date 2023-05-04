@@ -1,10 +1,11 @@
 .main3__container {
   background-color: #0e0e0e;
-  height: 140vh;
+  height: auto;
   font-family: arial;
   padding-left: 82px;
   padding-right: 80px;
   padding-top: 100px;
+  padding-bottom: 80px;
   color: #fff;
 }
 .main3__container-title{

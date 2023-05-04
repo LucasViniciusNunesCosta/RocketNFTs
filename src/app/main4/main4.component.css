@@ -1,0 +1,55 @@
+.melhores-artistas__container {
+    background-color: #0e0e0e;
+    color: #ffffff;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.melhores-artistas__titulo {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 120px;
+  text-align: center;
+}
+.melhores-artistas__titulo > b {
+  color: #ff5b50;
+}
+.melhores-artistas__card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 70px;
+  width: 80%;
+}
+.melhores-artistas__card {
+  display: flex;
+  min-width: 250px;
+  width: 25%;
+  background-color: #252525;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.melhores-artistas__card-nome {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.melhores-artistas__card-qtdFotografias {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ff5b50;
+}
+.melhores-artitas__verTodos {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
