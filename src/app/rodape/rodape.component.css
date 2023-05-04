@@ -1,0 +1,108 @@
+.rodape__container {
+  background-color: #252525;
+  color: #fff;
+  font-family: arial;
+}
+.rodape__sessao-top {
+  padding-top: 82px;
+  padding-bottom: 82px;
+}
+.sessao-top__logo {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+.sessao-top__logo > b {
+  color: #ff5b50;
+}
+.rodape__sessao-main {
+  width: 100%;
+  padding-top: 67px;
+  padding-bottom: 67px;
+  border-top: 1px solid #5a5757;
+  border-bottom: 1px solid #5a5757;
+  display: flex;
+}
+.sessao-main__left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
+.sessao-main__left-text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  width: 50%;
+}
+.sessao-main__left-text > b {
+  color: #ff5b50;
+}
+.sessao-main__left-inputBox {
+  height: 70px;
+  background-color: #0d0d0d;
+  width: 70%;
+}
+.sessao-main__left-inputBox > input {
+  background-color: transparent;
+  border: none;
+  color: #5a5757;
+  font-size: 20px;
+  width: 70%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.sessao-main__left-inputBox > button {
+  background-color: #fff;
+  color: #000;
+  height: 100%;
+  width: 30%;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sessao-main__right {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 122px;
+  padding-right: 190px;
+}
+.sessao-main__right > .list {
+  list-style: none;
+  height: 80%;
+}
+.list-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+.list-item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5a5757;
+  margin-bottom: 15px;
+}
+.rodape__sessao-bottom {
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5a5757;
+}
+.sessao-bottom__site {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.sessao-bottom__social-medias{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
