@@ -6,12 +6,20 @@
     align-content: end;
     align-items: center;
     margin-top: 3rem;
+    width: 100%;
 }
 .galery__top{
     display: flex;
+    justify-content: center;
     gap: 1rem;
+    width: 100%;
 }
 .galery__bottom{
     display: flex;
+    justify-content: center;
     gap: 1rem;
+    width: 100%;
+}
+.galery__item{
+    width: 20%;
 }
