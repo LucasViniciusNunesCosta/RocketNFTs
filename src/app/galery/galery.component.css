@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 3rem;
     justify-content: center;
-    align-content: end;
+    align-content: flex-end;
     align-items: center;
     margin-top: 3rem;
     width: 100%;
