@@ -2,10 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: arial;
   padding-left: 82px;
   padding-right: 80px;
-  color: #fff;
+  color: var(--text-color);
 }
 .banner-main__mercadoDigital {
   width: 40vw;
@@ -22,8 +21,8 @@
 .banner-main__artistas-selecionados {
   display: flex;
 }
-.banner-main__verdadeDigital{
-    width: 40vw;
+.banner-main__verdadeDigital {
+  width: 40vw;
 }
 .banner-main__verdadeDigital-title {
   margin: 0;
@@ -32,13 +31,13 @@
   line-height: 61px;
   letter-spacing: 0em;
 }
-.banner-main__verdadeDigital-title > b{
-    color: var(--color-logo);
+.banner-main__verdadeDigital-title > b {
+  color: var(--color-logo);
 }
-.banner-main__badge{
-    width: 20vw;
+.banner-main__badge {
+  width: 20vw;
 }
-.banner-main__badge-img{
-    width: 70%;
-    height: auto;
+.banner-main__badge-img {
+  width: 70%;
+  height: auto;
 }
