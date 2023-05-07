@@ -1,10 +1,10 @@
 .main2__container{
     height: 80vh;
-    background-color: #0e0e0e;
+    background-color: var(--body-background);
     display: flex;
-    color: #fff;
+    color: var(--text-color);
     font-family: arial;
-    border-bottom: .5px solid #5A5757;
+    border-bottom: .5px solid var(--subtitle-color);
 }
 .main2__number-container{
     width: 15vw;
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     gap: 70px;
-    border-right: .5px solid #5A5757;
+    border-right: .5px solid var(--subtitle-color);
 }
 .number-container{
     display: flex;
@@ -28,7 +28,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #5A5757;
+    color: var(--subtitle-color);
 }
 .main2__center{
     display: flex;
@@ -50,7 +50,7 @@
     margin-bottom: 3rem;
 }
 .main2__content-text>b{
-    color: #FF5B50;
+    color: var(--color-logo);
     text-decoration-line: underline;
 }
 .main2__content-autor{

@@ -1,12 +1,11 @@
 .main3__container {
-  background-color: #0e0e0e;
+  background-color: var(--body-background);
   height: auto;
-  font-family: arial;
   padding-left: 82px;
   padding-right: 80px;
   padding-top: 100px;
   padding-bottom: 80px;
-  color: #fff;
+  color: var(--text-color);
 }
 .main3__container-title{
   margin-bottom: 120px;
@@ -15,10 +14,10 @@
   font-weight: 400;
   font-size: 50px;
   line-height: 60.95px;
-  color: #fff;
+  color: var(--text-color);
 }
 .main3__title > b {
-  color: #ff5b50;
+  color: var(--color-logo);
 }
 .main3__populares-container {
   display: flex;
@@ -45,13 +44,13 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: #5a5757;
+  color: var(--subtitle-color);
 }
 .populares-card__name-rkt{
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #FF5B50;
+    color: var(--color-logos);
 }
 .populares-card__img{
   width: 100%;
