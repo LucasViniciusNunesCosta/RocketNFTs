@@ -3,32 +3,28 @@
   color: var(--text-color);
 }
 .rodape__sessao-top {
-  padding-top: 82px;
-  padding-bottom: 82px;
-  padding-left: 82px;
+  padding: 82px 0px 82px 82px;
 }
 .sessao-top__logo {
-  font-weight: 700;
   font-size: 40px;
+  font-weight: 700;
   line-height: 49px;
 }
 .sessao-top__logo > b {
   color: #ff5b50;
 }
 .rodape__sessao-main {
-  width: 100%;
-  border-top: 1px solid var(--subtitle-color);
   border-bottom: 1px solid var(--subtitle-color);
+  border-top: 1px solid var(--subtitle-color);
   display: flex;
+  width: 100%;
 }
 .sessao-main__left {
-  width: 40%;
+  border-right: 1px solid var(--subtitle-color);
   display: flex;
   flex-direction: column;
-  padding-left: 80px;
-  border-right: 1px solid var(--subtitle-color);
-  padding-top: 67px;
-  padding-bottom: 67px;
+  padding: 67px 0px 80px 67px;
+  width: 40%;
 }
 .sessao-main__left-text {
   font-weight: 500;
@@ -40,75 +36,72 @@
   color: var(--color-logo);
 }
 .sessao-main__left-inputBox {
-  height: 70px;
   background-color: #0d0d0d;
-  width: 90%;
   border-radius: 10px;
+  height: 70px;
+  width: 90%;
 }
 .sessao-main__left-inputBox > input {
   background-color: transparent;
   border: none;
+  box-sizing: border-box;
   color: var(--subtitle-color);
   font-size: 20px;
-  width: 70%;
-  height: 100%;
-  box-sizing: border-box;
   padding-left: 10px;
+  height: 100%;
+  width: 70%;
 }
 .sessao-main__left-inputBox > button {
   background-color: var(--text-color);
-  color: var(--black-text);
-  height: 100%;
-  width: 30%;
   border: none;
   border-radius: 0px 5px 5px 0px;
   font-size: 20px;
   font-weight: bold;
+  color: var(--black-text);
+  height: 100%;
+  width: 30%;
 }
 .sessao-main__right {
-  width: 60%;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-left: 122px;
-  padding-right: 190px;
-  padding-top: 67px;
-  padding-bottom: 67px;
+  padding: 67px 190px 67px 122px;
+  width: 60%;
 }
 .sessao-main__right > .list {
-  list-style: none;
   height: 80%;
+  list-style: none;
 }
 .list-title {
+  color: var(--text-color);
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: var(--text-color);
   margin-bottom: 7px;
 }
 .list-item {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
   color: var(--subtitle-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
   margin-bottom: 15px;
 }
 .rodape__sessao-bottom {
+  align-items: center;
   box-sizing: border-box;
-  padding: 50px;
+  color: var(--subtitle-color);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  color: var(--subtitle-color);
+  padding: 50px;
   padding-left: 82px;
 }
 .sessao-bottom__site {
-  font-weight: 400;
   font-size: 20px;
+  font-weight: 400;
   line-height: 24px;
 }
-.sessao-bottom__social-medias{
-    width: 30vw;
-    display: flex;
-    justify-content: space-around;
+.sessao-bottom__social-medias {
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
 }

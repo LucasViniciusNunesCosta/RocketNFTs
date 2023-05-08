@@ -1,16 +1,16 @@
 .melhores-artistas__container {
-    background-color: var(--body-background);
-    color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 150px;
-  }
+  align-items: center;
+  background-color: var(--body-background);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 150px;
+}
 .melhores-artistas__titulo {
+  color: var(--text-color);
   font-weight: 700;
   font-size: 50px;
   line-height: 61px;
-  color: var(--text-color);
   margin: 0;
   margin-bottom: 120px;
   text-align: center;
@@ -20,21 +20,21 @@
 }
 .melhores-artistas__card-container {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   gap: 2rem;
+  justify-content: space-around;
   margin-bottom: 70px;
   width: 80%;
 }
 .melhores-artistas__card {
-  display: flex;
-  min-width: 250px;
-  width: 25%;
-  background-color: var(--card-color);
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  background-color: var(--card-color);
+  display: flex;
+  justify-content: space-between;
+  min-width: 250px;
   margin-bottom: 1rem;
+  padding: 1rem;
+  width: 25%;
 }
 .melhores-artistas__card-nome {
   font-weight: 500;
@@ -43,16 +43,16 @@
   margin-bottom: 10px;
 }
 .melhores-artistas__card-qtdFotografias {
+  color: var(--color-logo);
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: var(--color-logo);
 }
 .melhores-artitas__verTodos {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 }
-.verTodos__container > span{
+.verTodos__container > span {
   margin-right: 2rem;
 }

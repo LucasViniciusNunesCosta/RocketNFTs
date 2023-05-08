@@ -1,25 +1,12 @@
 .galery__container{
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    justify-content: center;
     align-content: flex-end;
-    align-items: center;
     margin-top: 3rem;
     width: 100%;
 }
-.galery__top{
+.galery{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
     width: 100%;
-}
-.galery__bottom{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    width: 100%;
-}
-.galery__item{
-    width: 20%;
 }
