@@ -1,57 +1,57 @@
 .main3__container {
   background-color: var(--body-background);
+  color: var(--text-color);
   height: auto;
   padding-left: 82px;
   padding-right: 80px;
   padding-top: 100px;
   padding-bottom: 80px;
-  color: var(--text-color);
 }
-.main3__container-title{
+.main3__container-title {
   margin-bottom: 120px;
 }
 .main3__title {
+  color: var(--text-color);
   font-weight: 400;
   font-size: 50px;
   line-height: 60.95px;
-  color: var(--text-color);
 }
 .main3__title > b {
   color: var(--color-logo);
 }
 .main3__populares-container {
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  width: 100%;
 }
 .populares-card {
-  width: 25vw;
-  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-bottom: 100px;
+  width: 25vw;
 }
 .populares-card__identification-astronaut {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
 }
-.populares-card__name{
-    display: flex;
-    justify-content: space-between;
+.populares-card__name {
+  display: flex;
+  justify-content: space-between;
 }
 .populares-card__name-astronaut {
+  color: var(--subtitle-color);
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: var(--subtitle-color);
 }
-.populares-card__name-rkt{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: var(--color-logos);
+.populares-card__name-rkt {
+  color: var(--color-logos);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
-.populares-card__img{
+.populares-card__img {
   width: 100%;
 }
