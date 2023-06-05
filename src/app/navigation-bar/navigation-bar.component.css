@@ -7,7 +7,7 @@
     padding: 57px 80px 90px 82px;
 }
 .navigation__logo{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .navigation__logo>b{
@@ -39,4 +39,12 @@
     justify-content: center;
     line-height: 20px;
     width: 230px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .navigation__container{
+        padding: 1rem;
+    }
+    .navigation__navbar, .navigation__btn{
+        display: none;
+    }
 }
