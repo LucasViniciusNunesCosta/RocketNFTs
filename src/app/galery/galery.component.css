@@ -1,5 +1,4 @@
 .galery__container{
-    align-content: flex-end;
     margin-top: 3rem;
     width: 100%;
 }
@@ -9,4 +8,17 @@
     flex-wrap: wrap;
     gap: 1rem;
     width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .galery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: .5rem;
+    }
+    .galery >img{
+        width: 100%;
+    }
 }
