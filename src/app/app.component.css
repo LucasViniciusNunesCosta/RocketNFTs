@@ -2,5 +2,6 @@ header{
     background-image: url('../assets/assets/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 155vh;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
 }
