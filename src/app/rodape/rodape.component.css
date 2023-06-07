@@ -109,8 +109,19 @@
   .rodape__sessao-main{
     flex-direction: column;
   }
+  .rodape__sessao-top{
+    padding-left: 10px;
+    text-align: center;
+  }
+  .sessao-main__left{
+    padding-left: 10px;
+    border-right: 0;
+  }
   .sessao-main__left{
     width: auto;
+  }
+  .sessao-main__left-inputBox{
+    width: 90vw;
   }
   .sessao-main__right{
     width: auto;
@@ -124,5 +135,13 @@
   }
   .sessao-bottom__social-medias{
     width: auto;
+  }
+  .rodape__sessao-bottom{
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .sessao-bottom__social-medias{
+    width: 60vw;
+    justify-content: space-around;
   }
 }
