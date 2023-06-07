@@ -21,7 +21,7 @@
 }
 .number-container__number {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3.1rem;
   line-height: 61px;
 }
 .number-container__type {
@@ -64,4 +64,32 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 40vh;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .main2__container{
+    flex-direction: column;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .main2__number-container{
+    width: auto;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .number-container__type{
+    font-size: 1rem;
+  }
+  .main2__content-container{
+    flex-direction: column;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .main2__content >p{
+    width: 90vw;
+    word-break: keep-all;
+    text-align: justify;
+  }
+  .main2__banner{
+    height: 50vw;
+  }
 }
