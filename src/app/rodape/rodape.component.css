@@ -126,6 +126,7 @@
   .sessao-main__right{
     width: auto;
     padding: 0;
+    justify-content: space-around;
   }
   .sessao-main__right > .list{
     padding: 0;
