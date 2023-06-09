@@ -70,6 +70,7 @@
     flex-direction: column;
     height: auto;
     box-sizing: border-box;
+    padding-top: 3rem;
   }
   .main2__number-container{
     width: auto;
