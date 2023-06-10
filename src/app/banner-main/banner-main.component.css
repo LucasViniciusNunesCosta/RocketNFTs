@@ -61,3 +61,22 @@
     display: none;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1279px){
+  .banner-main__container{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .banner-main__mercadoDigital{
+    width: auto;
+  }
+  .banner-main__mercadoDigital-text{
+    width: auto;
+  }
+  .banner-main__verdadeDigital{
+    width: auto;
+  }
+  .banner-main__badge{
+    display: none;
+  }
+}
