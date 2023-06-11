@@ -133,6 +133,7 @@
   }
   .rodape__sessao-bottom{
     padding: 0;
+    padding-bottom: 2rem;
   }
   .sessao-bottom__social-medias{
     width: auto;

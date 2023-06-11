@@ -67,6 +67,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .main3__populares-container >hr{
+    display: none;
+  }
   .populares-card{
     width: 80vw;
   }
